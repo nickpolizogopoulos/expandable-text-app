@@ -6,11 +6,12 @@ import Heading from "./components/Heading";
 
 const App = () => {
   return (<>
+    <div className="p-4">
+
       <div className="mb-4" style={{
           padding: '20px',
           backgroundColor: '#f5f5f5',
           }}>
-            
         <Heading>Two iconic and legendary Spacecrafts</Heading>
       </div>
 
@@ -126,6 +127,7 @@ const App = () => {
         ></PhotoLink>
       </div>
 
+    </div>
     </>);
 };
 
